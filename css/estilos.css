@@ -1,0 +1,37 @@
+/*Cambios de color*/
+h1{
+    color: #06f706;
+    background-color:#0909c0;
+    text-align: center;
+    border-radius: 8px;
+    margin: 0px 120px 20px;
+/*Estilos del encabezado en tamaño móvil*/
+}
+@media (max-width: 400px)    {
+     h1{font-size: 16px;}
+}
+/*formato de encabezado, ancho centrado de texto*/
+div.titulo{
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+}
+/*alineado vertical de inputs, bordes, margenes relleno*/
+input{
+    display: block;
+    margin: 5px 5px 15px 5px;
+    border: 3px solid brown;
+    border-radius: 8px;
+    padding: 10px 20px;
+    background-color:#ffebcd
+}
+input[type="submit"]{
+    margin-left: 120px;
+    margin-top: 30px;
+    border-radius: 0px;
+    background-color: #c4b9a8;
+    padding: 10px;
+}
+div{
+    margin: 0px 400px 0px 0px;
+}
